@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive2</title>
+    <Style>
+        *{margin: 0; padding: 0; box-sizing: border-box;}
+        .boxa{ border: 2px  solid white; padding:60px; background-color: darkblue; width: 100%;}
+        .boxb{ border: 2px  solid white; padding:60px; background-color: rgb(3, 51, 80);width: 100%;}
+        .boxc{ border: 2px  solid white; padding:60px; background-color: skyblue;width: 60%;}
+        .boxd{ border: 2px  solid white; padding:60px; background-color: purple;width: 40%;}
+        .boxe{ border: 2px  solid white; padding:60px; background-color: rgb(141, 173, 195);width: 100%;}
+       .page{display: flex; flex-wrap: wrap;}
+       @media(max-with:490px){
+        .boxa{order: 1;}
+        .boxc{order: 2;width: 100%;}
+        .boxb{order: 3;}
+        .boxd{order: 4;width: 100%;}
+        .boxe{order: 5;}
+       }
+       
+
+    </Style>
+</head>
+<body>
+    <div class="page">
+    <div class="boxa">
+        <p>header</p>
+    </div>
+    <div class="boxb">
+        
+        <p>Nav</p>
+=
+</div>
+    <div class="boxc">
+        <p>Main</p>
+    </div>
+    <div class="boxd">
+        <p>Aside</p>
+    </div>
+    <div class="boxe">
+        <p>Footer</p>
+    </div>
+</div>
+</body>
+</html>

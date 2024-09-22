@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <style>
+        .g{background-color: green;}
+        .box{
+            border: 2px  solid black; padding:60px
+        }
+    
+        .flex{margin: 25px 0;}
+        @media(min-width:481px) and (max-width:992px){
+        .fbox{display: flex;}
+    }
+        @media(min-width:992px) {
+            .flex{display: flex; justify-content:space-between;}
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="g box"> </div>
+    <div class="flex">
+        <div class="fbox">
+        <div class="g box"> </div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati corporis error incidunt assumenda aliquid. Modi soluta hic voluptatum, assumenda, odio totam ipsa tempora placeat delectus ab dolore incidunt unde laboriosam!</p>
+    </div>
+</div>
+        <div class="fbox">
+        <div class="g box"> </div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati corporis error incidunt assumenda aliquid. Modi soluta hic voluptatum, assumenda, odio totam ipsa tempora placeat delectus ab dolore incidunt unde laboriosam!</p>
+    </div>
+</div>
+        <div class="fbox">
+        <div class="g box"> </div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati corporis error incidunt assumenda aliquid. Modi soluta hic voluptatum, assumenda, odio totam ipsa tempora placeat delectus ab dolore incidunt unde laboriosam!</p>
+    </div>    
+</div>
+</body>
+</html>
