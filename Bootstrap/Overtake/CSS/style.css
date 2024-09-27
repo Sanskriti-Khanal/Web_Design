@@ -10,3 +10,28 @@
     background-color: #055999;
    color: white;
 }
+
+.box{
+    width: 100%;
+    padding: 20px;
+    display: inline-block;
+    background: #efefef;
+    padding-bottom: 20px;
+    border: 1px solid #efefef
+    
+}
+.box i{
+    font-size: 66px;
+    color: grey;
+}
+.box:hover{
+    background: #fff;
+}
+
+.btn{
+    background-color: #055999;
+}
+.team{
+    background:#055999 ;
+    color: #fff;
+}
