@@ -35,3 +35,15 @@
     background:#055999 ;
     color: #fff;
 }
+.dropdown-item{
+    color: grey;
+    font-size:13px;
+}
+
+.dropdown-item:hover {
+    background-color: #055999;
+   color: white;
+}
+.about h2{
+    margin-top: 20px;
+}

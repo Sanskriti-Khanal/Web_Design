@@ -1,0 +1,104 @@
+.nav-link {
+    color: #055999;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+   background-color: #055999;
+   color: white;
+
+}
+.nav-link:hover {
+    background-color: #055999;
+   color: white;
+}
+.dropdown-item{
+    color: grey;
+    font-size:13px;
+}
+
+.dropdown-item:hover {
+    background-color: #055999;
+   color: white;
+}
+#inner-headline {
+    background: url(https://webthemez.com/demo/overtake-business-bootstrap-html-website-template/img/slides/1.jpg);
+  
+  height:100px;
+
+    background-repeat: no-repeat;
+    background-position: top right;
+
+    background-size: cover;
+
+}
+
+.pageTitle{
+    color: white;
+    padding-top: 25px;
+
+}
+
+.content h4{
+    padding-top:55px;
+    padding-bottom: 20px;
+}
+
+
+.feat{
+    padding-top: 30px;
+}
+p{
+    color: rgb(96, 95, 95);
+    font-size: medium;
+    font-weight: 0;
+}
+.feature {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.feature-icon{
+    font-size: 26px;
+    margin: 2px 8px 0 0;
+    color: #ffc02a;
+    background: #055999;
+    padding: 16px;
+    min-width: 24px;
+    
+
+    border: 1px solid #055999
+
+}
+.feature-content {
+    flex: 1;
+}
+.feature-content h5 {
+    margin-top: 0;
+}
+.question h4{
+    margin-top: 35px;
+    padding-bottom: 35px;
+}
+
+
+.progres-content h6{
+    padding-bottom: 8px;
+    padding-top: 8px;
+    font-size: 12px;
+}
+.progress{
+    height: 5px;
+}
+
+.progress-bar {
+    background-color: #4CAF50; /* Green color */
+    transition: width 1s ease-in-out;
+}
+
+.team h4{
+    padding-top: 30px;
+}
+
+.staff{
+    padding-top: 20px;
+}
