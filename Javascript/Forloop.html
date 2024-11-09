@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        for(var a=0;a<=10;a++){
+            document.write(`Loop is ${a} <hr>`)
+        }document.write("Loop Ends <hr>")
+    </script>
+    <!-- //realistic use -->
+    <select>
+        <script>
+            for(var b=1900;b<=2024;b++){
+            document.write(`<option> ${b} </option> <hr>`)
+        }
+        </script>
+    </select>
+    <script>
+        //tr= table row
+        //th = table heading
+        //td= table detailse
+        var r=prompt("Enter the number of rows")
+        var c=prompt("Enter Number of column")
+        document.write(`<table border = 1>`)
+            for(var q=0;q<=r;q++){
+                document.write(`<tr>`)
+                    for(var w=0;w<=c;w++){
+                        document.write(`<td>111</td>`)
+                    }
+                    document.write(`</tr>`)
+            }
+            document.write(`</table>`)
+
+    </script>
+</body>
+</html>
